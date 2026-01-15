@@ -395,7 +395,7 @@ export default function App() {
         <section id="projects" className="scroll-mt-32 relative">
           <div className="flex justify-between items-end mb-8">
             <SectionTitle icon={Layout} isDark={isDark}>Featured Projects</SectionTitle>
-            <div className="flex gap-4 mb-10">
+            <div className="hidden md:flex gap-4 mb-10">
               <button onClick={() => slideProjects('left')} className={`p-4 rounded-2xl border-2 transition-all duration-300 ${isDark ? 'border-slate-800 text-slate-400 hover:border-red-500 hover:text-red-500' : 'border-slate-100 text-slate-500 hover:border-red-600 hover:text-red-600 shadow-md'}`}>
                 <ChevronLeft className="w-6 h-6" />
               </button>
@@ -445,7 +445,7 @@ export default function App() {
         <section id="certs" className="scroll-mt-32 relative">
           <div className="flex justify-between items-end mb-8">
             <SectionTitle icon={FileCheck} isDark={isDark}>Certifications</SectionTitle>
-            <div className="flex gap-4 mb-10">
+            <div className="hidden md:flex gap-4 mb-10">
               <button onClick={() => slide('left')} className={`p-4 rounded-2xl border-2 transition-all duration-300 ${isDark ? 'border-slate-800 text-slate-400 hover:border-red-500 hover:text-red-500' : 'border-slate-100 text-slate-500 hover:border-red-600 hover:text-red-600 shadow-md'}`}>
                 <ChevronLeft className="w-6 h-6" />
               </button>
