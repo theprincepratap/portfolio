@@ -349,7 +349,8 @@ export default function App() {
               { icon: Linkedin, url: "https://in.linkedin.com/in/thprincepratap?trk=public_profile_browsemap", color: "hover:text-red-600 hover:border-red-600" },
               { icon: Youtube, url: "https://youtube.com/@priprocode", color: "hover:text-red-700 hover:border-red-700" },
               { icon: Instagram, url: "https://www.instagram.com/itsprincepratap", color: "hover:text-rose-600 hover:border-rose-600" },
-              { icon: Globe, url: "https://theprincepratap.wordpress.com", color: "hover:text-red-500 hover:border-red-500" }
+              { icon: Globe, url: "https://theprincepratap.wordpress.com", color: "hover:text-red-500 hover:border-red-500" },
+              { icon: Code, url: "https://leetcode.com/u/theprincepratap/", color: "hover:text-orange-600 hover:border-orange-600" }
             ].map((link, idx) => (
               <a key={idx} href={link.url} target="_blank" className={`p-4 rounded-2xl border transition-all duration-300 ${isDark ? 'bg-slate-900 border-slate-800 text-slate-400' : 'bg-white border-slate-200 text-slate-400 shadow-md'} ${link.color}`} rel="noreferrer"><link.icon className="w-6 h-6" /></a>
             ))}
@@ -514,6 +515,7 @@ export default function App() {
             <a href="https://in.linkedin.com/in/thprincepratap?trk=public_profile_browsemap" target="_blank" rel="noreferrer"><Linkedin className="w-6 h-6 cursor-pointer hover:text-red-600 transition-colors" /></a>
             <a href="https://youtube.com/@priprocode" target="_blank" rel="noreferrer"><Youtube className="w-6 h-6 cursor-pointer hover:text-red-700 transition-colors" /></a>
             <a href="https://www.instagram.com/itsprincepratap" target="_blank" rel="noreferrer"><Instagram className="w-6 h-6 cursor-pointer hover:text-rose-600 transition-colors" /></a>
+            <a href="https://leetcode.com/u/theprincepratap/" target="_blank" rel="noreferrer"><Code className="w-6 h-6 cursor-pointer hover:text-orange-600 transition-colors" /></a>
           </div>
         </div>
       </footer>
