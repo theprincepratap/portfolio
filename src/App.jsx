@@ -297,6 +297,7 @@ export default function App() {
           </div>
           <div className="flex items-center gap-3 md:gap-8">
             <div className="hidden md:flex items-center gap-8">
+              <a href="https://princepratap.vercel.app/" target="_blank" rel="noopener noreferrer" className={`text-sm font-bold transition-colors flex items-center gap-1 ${isDark ? 'text-slate-400 hover:text-white' : 'text-slate-500 hover:text-red-600'}`}>Portfolio <ExternalLink className="w-3 h-3" /></a>
               {['About', 'Academic', 'Projects', 'Certs', 'Contact'].map((item) => (
                 <a key={item} href={`#${item.toLowerCase()}`} className={`text-sm font-bold transition-colors ${isDark ? 'text-slate-400 hover:text-white' : 'text-slate-500 hover:text-red-600'}`}>{item}</a>
               ))}
